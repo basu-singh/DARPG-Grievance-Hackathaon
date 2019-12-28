@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Language (Under Construction)">
+
+        <ListPreference
+            app:defaultValue="eng"
+            app:entries="@array/language_entries"
+            app:entryValues="@array/language_values"
+            app:key="appLanguage"
+            app:title="Language"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Notifications">
+
+        <SwitchPreference
+            app:key="allNotification"
+            app:enabled="true"
+            app:title="All Notifications"/>
+
+        <SwitchPreference
+            app:dependency="allNotification"
+            app:key="myGrievanceCommentNotification"
+            app:enabled="true"
+            app:title="My Grievance Comment"/>
+
+        <SwitchPreference
+            app:dependency="allNotification"
+            app:key="communityReplyNotification"
+            app:title="My Community Post Reply"
+            app:summary="Get notifications from your community post"/>
+
+        <SwitchPreference
+            app:dependency="allNotification"
+            app:key="communityPostFollowReplyNotification"
+            app:enabled="true"
+            app:title="Other Community Post Follow"
+            app:summary="Get notifications from community post you follow made by other users."/>
+
+        <SwitchPreference
+            app:dependency="allNotification"
+            app:key="otherNotification"
+            app:enabled="true"
+            app:title="Other Notification"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

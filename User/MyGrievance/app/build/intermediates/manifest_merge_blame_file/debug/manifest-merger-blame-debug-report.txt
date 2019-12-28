@@ -1,0 +1,348 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.basusingh.mygrievance"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="16"
+9-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:6:5-40
+12-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:8:5-67
+14-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:23:22-76
+19    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+19-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+19-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+20    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
+20-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
+21    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+21-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+21-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
+22
+23    <application
+23-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:13:5-69:19
+24        android:allowBackup="true"
+24-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:14:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\331630a23dfa1f0594bcf54d5352aa36\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:15:9-43
+28        android:label="@string/app_name"
+28-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:16:9-41
+29        android:roundIcon="@mipmap/ic_launcher"
+29-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:17:9-48
+30        android:supportsRtl="true"
+30-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:18:9-35
+31        android:testOnly="true"
+32        android:theme="@style/AppTheme" >
+32-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:19:9-40
+33        <activity android:name="com.basusingh.mygrievance.Activity.CommunityPostView" />
+33-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:20:9-73
+33-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:20:19-61
+34        <activity
+34-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:21:9-24:59
+35            android:name="com.basusingh.mygrievance.Activity.CommunityActivity"
+35-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:22:13-55
+36            android:label="@string/title_activity_community"
+36-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:23:13-61
+37            android:theme="@style/AppTheme.NoActionBar" />
+37-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:24:13-56
+38        <activity
+38-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:25:9-27:73
+39            android:name="com.basusingh.mygrievance.Activity.ListOfMinistries"
+39-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:26:13-54
+40            android:label="@string/title_activity_list_of_ministries" />
+40-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:27:13-70
+41        <activity android:name="com.basusingh.mygrievance.Activity.HelpCenter" />
+41-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:28:9-57
+41-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:28:19-54
+42        <activity
+42-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:29:9-32:59
+43            android:name="com.basusingh.mygrievance.Activity.ViewGrievance"
+43-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:30:13-51
+44            android:label="@string/title_activity_view_grievance"
+44-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:31:13-66
+45            android:theme="@style/AppTheme_Translucent" />
+45-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:32:13-56
+46        <activity android:name="com.basusingh.mygrievance.Activity.ViewAllGrievance" />
+46-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:33:9-63
+46-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:33:19-60
+47        <activity
+47-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:34:9-36:59
+48            android:name="com.basusingh.mygrievance.Activity.Registration.SignUp"
+48-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:35:13-57
+49            android:theme="@style/AppTheme_Translucent" />
+49-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:36:13-56
+50        <activity
+50-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:37:9-39:59
+51            android:name="com.basusingh.mygrievance.Activity.Registration.Login"
+51-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:38:13-56
+52            android:theme="@style/AppTheme_Translucent" />
+52-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:39:13-56
+53        <activity
+53-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:40:9-42:59
+54            android:name="com.basusingh.mygrievance.Activity.CreateGrievance"
+54-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:41:13-53
+55            android:theme="@style/AppTheme_Translucent" />
+55-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:42:13-56
+56        <activity
+56-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:43:9-46:56
+57            android:name="com.basusingh.mygrievance.Activity.SettingsActivity"
+57-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:44:13-54
+58            android:label="@string/title_activity_settings"
+58-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:45:13-60
+59            android:theme="@style/AppThemeActionBar" />
+59-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:46:13-53
+60        <activity android:name="com.basusingh.mygrievance.Activity.Registration.AppInfoPage" />
+60-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:47:9-71
+60-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:47:19-68
+61        <activity
+61-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:48:9-51:59
+62            android:name="com.basusingh.mygrievance.Activity.MainActivity"
+62-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:49:13-50
+63            android:label="@string/title_activity_main"
+63-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:50:13-56
+64            android:theme="@style/AppTheme_Translucent" />
+64-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:51:13-56
+65        <activity
+65-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:52:9-60:20
+66            android:name="com.basusingh.mygrievance.Activity.SplashScreen"
+66-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:53:13-50
+67            android:theme="@style/SplashTheme" >
+67-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:54:13-47
+68            <intent-filter>
+68-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:55:13-59:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:56:17-69
+69-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:56:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:58:17-77
+71-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:58:27-74
+72            </intent-filter>
+73        </activity>
+74
+75        <service
+75-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:62:9-68:19
+76            android:name="com.basusingh.mygrievance.Utils.MyFirebaseMessagingService"
+76-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:63:13-61
+77            android:exported="false" >
+77-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:64:13-37
+78            <intent-filter>
+78-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:65:13-67:29
+79                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+79-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:66:17-78
+79-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:66:25-75
+80            </intent-filter>
+81        </service>
+82        <service
+82-->[androidx.room:room-runtime:2.2.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\cd2a51b01f1e79d09600f1ce765ea65a\room-runtime-2.2.2\AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.room.MultiInstanceInvalidationService"
+83-->[androidx.room:room-runtime:2.2.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\cd2a51b01f1e79d09600f1ce765ea65a\room-runtime-2.2.2\AndroidManifest.xml:26:13-74
+84            android:exported="false" />
+84-->[androidx.room:room-runtime:2.2.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\cd2a51b01f1e79d09600f1ce765ea65a\room-runtime-2.2.2\AndroidManifest.xml:27:13-37
+85        <!--
+86             FirebaseMessagingService performs security checks at runtime,
+87             but set to not exported to explicitly avoid allowing another app to call it.
+88        -->
+89        <service
+89-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
+90            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+90-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
+91            android:exported="false" >
+91-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
+92            <intent-filter android:priority="-500" >
+92-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:65:13-67:29
+93                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+93-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:66:17-78
+93-->C:\Users\Ashish Singh\AndroidStudioProjects\MyGrievance\app\src\main\AndroidManifest.xml:66:25-75
+94            </intent-filter>
+95        </service>
+96        <service
+96-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
+97            android:name="com.google.firebase.components.ComponentDiscoveryService"
+97-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:36:13-84
+98            android:directBootAware="true"
+98-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+99            android:exported="false" >
+99-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:37:13-37
+100            <meta-data
+100-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
+101                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+101-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\aefd00c6b8fc5dd9d4376fe4d0e5efaf\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+104                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+104-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\e0da70c9258f6893a2373fb18ae7e095\firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+106            <meta-data
+106-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+107                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+107-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\559f094854fa85bd072da76bc0e0e01f\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
+110                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+110-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
+112        </service>
+113
+114        <provider
+114-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\7e89777ffdf10373423334bb5739e1b8\jetified-crashlytics-2.10.1\AndroidManifest.xml:19:9-23:38
+115            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+115-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\7e89777ffdf10373423334bb5739e1b8\jetified-crashlytics-2.10.1\AndroidManifest.xml:20:13-75
+116            android:authorities="com.basusingh.mygrievance.crashlyticsinitprovider"
+116-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\7e89777ffdf10373423334bb5739e1b8\jetified-crashlytics-2.10.1\AndroidManifest.xml:21:13-75
+117            android:exported="false"
+117-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\7e89777ffdf10373423334bb5739e1b8\jetified-crashlytics-2.10.1\AndroidManifest.xml:22:13-37
+118            android:initOrder="90" />
+118-->[com.crashlytics.sdk.android:crashlytics:2.10.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\7e89777ffdf10373423334bb5739e1b8\jetified-crashlytics-2.10.1\AndroidManifest.xml:23:13-35
+119
+120        <receiver
+120-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
+121            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+121-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
+122            android:exported="true"
+122-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
+123            android:permission="com.google.android.c2dm.permission.SEND" >
+123-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
+124            <intent-filter>
+124-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
+125                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
+125-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\946a39d7756c6b05aa38a853bdffc128\firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
+126            </intent-filter>
+127        </receiver>
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+131            android:authorities="com.basusingh.mygrievance.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\d1bc9e4f3261bcaeb8cb261b14aa97c9\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+134
+135        <activity
+135-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+136            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+136-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+137            android:exported="false"
+137-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+138            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+138-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\b989d78505a527364775fcd163b70614\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+139
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+143            android:exported="false" >
+143-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+144        </receiver>
+145        <receiver
+145-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+146            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+146-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+147            android:enabled="true"
+147-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+148            android:exported="true"
+148-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+149            android:permission="android.permission.INSTALL_PACKAGES" >
+149-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+150            <intent-filter>
+150-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+151                <action android:name="com.android.vending.INSTALL_REFERRER" />
+151-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+151-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+152            </intent-filter>
+153        </receiver>
+154
+155        <service
+155-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+156            android:name="com.google.android.gms.measurement.AppMeasurementService"
+156-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+157            android:enabled="true"
+157-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+158            android:exported="false" />
+158-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+159        <service
+159-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+160            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+160-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+161            android:enabled="true"
+161-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+162            android:exported="false"
+162-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+163            android:permission="android.permission.BIND_JOB_SERVICE" />
+163-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\1d7fa4c15cc347978dce90a6ff08e8ee\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+164
+165        <meta-data
+165-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\3d6177b13fc56c243fc741372667f5c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+166            android:name="com.google.android.gms.version"
+166-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\3d6177b13fc56c243fc741372667f5c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\3d6177b13fc56c243fc741372667f5c1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+168
+169        <service
+169-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+170            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+170-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+171            android:exported="false" >
+171-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+172            <meta-data
+172-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+173                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+173-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+174                android:value="cct" />
+174-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\77181b27b36cb37ae3fc9cbfe9ccb0de\transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+175        </service>
+176        <service
+176-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+177            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+177-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+178            android:exported="false"
+178-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+179            android:permission="android.permission.BIND_JOB_SERVICE" >
+179-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+180        </service>
+181
+182        <receiver
+182-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+183-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+184            android:exported="false" />
+184-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\Ashish Singh\.gradle\caches\transforms-2\files-2.1\de57d140c5b40ac4922d63a6d65b36af\transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+185    </application>
+186
+187</manifest>

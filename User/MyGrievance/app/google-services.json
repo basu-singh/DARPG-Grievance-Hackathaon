@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661939428431",
+    "firebase_url": "https://my-grievance.firebaseio.com",
+    "project_id": "my-grievance",
+    "storage_bucket": "my-grievance.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661939428431:android:7c1d65eb7046dd8eefde3a",
+        "android_client_info": {
+          "package_name": "com.basusingh.mygrievance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661939428431-cnqv9s41k38vkagrdsqcp1sgo5ovv45i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.basusingh.mygrievance",
+            "certificate_hash": "bb904affd9f435155859c378e50cade527036d89"
+          }
+        },
+        {
+          "client_id": "661939428431-4hjvtdms0ja229ku4p1069emblg9oldr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxC6zVXJreMOulGcuysQcPCBmqYdkSLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661939428431-4hjvtdms0ja229ku4p1069emblg9oldr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
